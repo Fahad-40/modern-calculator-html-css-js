@@ -13,3 +13,10 @@ This project focuses on **UI design, DOM manipulation, and basic JavaScript logi
 - ❌ Clear display
 - 🎨 Modern UI with hover & active effects
 - 📱 Responsive and centered layout
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5** – Structure
+- **CSS3** – Styling & Layout
+- **JavaScript (ES6)** – Logic & DOM Manipulation
