@@ -89,19 +89,6 @@ body {
   background-color: #4caf50;
 }
 
-.button.clear {
-  background-color: #ef5350;
-  color: #fff;
-}
-
-.button.clear:hover {
-  background-color: #d32f2f;
-}
-
-.button.equal {
-  background-color: #4caf50;
-  color: #fff;
-}
 
 .button.equal:hover {
   background-color: #388e3c;
