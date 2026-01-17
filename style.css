@@ -1,0 +1,92 @@
+/* === General Page Layout === */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+  margin: 0;
+}
+
+/* === Calculator Box === */
+.calculator {
+  width: 320px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 25px 20px 30px;
+  transition: transform 0.3s ease;
+}
+
+.calculator:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+/* === Display Screen === */
+.display {
+  width: 100%;
+  height: 55px;
+  text-align: right;
+  font-size: 1.6rem;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: -10px;
+}
+
+/* === Buttons Grid === */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* === Button Style === */
+.button {
+  background-color: #2196f3;
+  border: none;
+  font-size: 1.3rem;
+  padding: 18px 0;
+  cursor: pointer;
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.25s ease;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+/* === Special Buttons === */
+.button.clear {
+  background-color: #ef5350;
+}
+
+.button.clear:hover {
+  background-color: #d32f2f;
+}
+
+.button.equal {
+  background-color: #4caf50;
+}
+
+
